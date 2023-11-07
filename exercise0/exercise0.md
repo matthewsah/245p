@@ -1,3 +1,5 @@
+hi :o
+
 Getting Started
 This is Exercise ZERO. Pun intended. This might be nothing new for you at this point, so this is a good way to earn some extra points. If this is something new for you, awesome, we all have to start somewhere!
 
