@@ -1,0 +1,7 @@
+To test my code, I used 
+Google Chrome
+    version 118.0.5993.117 (Official Build) (x86_64)
+On MacBook Pro (2019): 
+    2.4 GHz Quad-Core Intel Core i5
+    Intel Iris Plus Graphics 655 1536 MB
+    macOS Sonoma 14.1

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Layout</title>
+    <style type="text/css">
+        header, section, footer, aside, nav, article, figure, figcaption {
+            display: block;
+        }
+        h1 {
+            margin: 2rem;
+        }
+        body {
+            color: #666666;
+            background-color: #e8e0d1;
+            font-family: Georgia, times, serif;
+            line-height: 1.4em;
+            margin: 0px;
+        }
+        .wrapper {
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;
+        }
+        
+        nav, footer {
+            clear: both;
+            color: #ffffff;
+            background-color: #aeaca8;
+            height: 30px;
+        }
+        nav ul {
+            margin: 0px;
+            padding: 5px 0px 5px 30px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+        nav li a {
+            color: #ffffff;
+        }
+        nav li a:hover, nav li a.current {
+            color: #000000;
+        }
+        section.main-content {
+            float: left;
+            width: 659px;
+            border-right: 1px solid #eeeeee;
+        }
+
+        .inner-content {
+            margin-top: 1rem;
+            margin-left: 1rem;
+        }
+        
+        aside {
+            width: 230px;
+            float: left;
+            padding: 0px 0px 0px 20px;
+        }
+        aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;
+        }
+        aside section a:hover {
+            color: #985d6a;
+            background-color: #efefef;
+        }
+        a {
+            color: #de6581;
+            text-decoration: none;
+        }
+        h1, h2, h3 {
+            font-weight: normal
+        }
+        h2 {
+            margin: 10px 0px 5px 0px;
+            padding: 0px;
+        }
+        h3 {
+            margin: 0px 0px 10px 0px;
+            color: #de6581;
+        }
+        aside h2 {
+            padding: 30px 0px 10px 0px;
+            color: #de6581;
+        }
+        footer {
+            font-size: 80%;
+            padding: 7px 0px 0px 20px;
+        }
+        .all-content {
+            display: flex;
+        }
+
+        @media (max-width: 1100px) {
+            .all-content {
+                display: flex;
+                flex-direction: column;
+            }
+
+            section.main-content {
+                width: 100%;
+                border: none;
+            }
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Matt's portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="" class="current">home</a></li>
+                    <li><a href="">education</a></li>
+                    <li><a href="">projects</a></li>
+                    <li><a href="">hobbies</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="all-content">
+
+            <section class="main-content">
+                <div class="inner-content">
+                    <h2>About me</h2>
+                    <p>
+                        I am a student in the Master of Software Engineering program at UC Irvine and a team member and captain of our Division 1 Men's tennis team. Previously, I completed my undergraduate degree in Computer Science at UC Irvine. In my free time I enjoy
+                        hiking, surfing, travelling, and trying new foods. 
+                    </p>
+                </div>
+            </section>
+            <aside>
+                <section class="popular-recipes">
+                    <h2>My Journal</h2>
+                    <a href="">11/07/2023</a>
+                    <a href="">11/08/2023</a>
+                    <a href="">11/09/2023</a>
+                    <a href="">11/10/2023</a>
+                </section>
+                <section class="contact-details">
+                    <h2>Contact</h2>
+                    <p>Matthew Sah<br />
+                    12475 Cavallo St<br />
+                    San Diego<br />
+                    CA</p>
+                </section>
+            </aside>
+        </div>
+        <footer>
+            Matthew Sah <a href="https://github.com/matthewsah/245p">GithHub Repo</a>
+        </footer>
+    </div><!-- .wrapper -->
+</body>
+</html>
