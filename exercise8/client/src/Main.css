@@ -1,0 +1,19 @@
+.content {
+    width: 100%;
+    background-color:  rgb(13, 65, 128);
+    color: rgb(194, 194, 194);
+}
+
+.title {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 1em 1em;
+}
+
+img {
+    height: 70%;
+    border-radius: 1em;
+}
