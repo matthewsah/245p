@@ -1,0 +1,46 @@
+h1 {
+  margin: 1em 1em;
+  font-size: 3rem;
+  text-align: center;
+}
+.carousel {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  overflow: hidden;
+}
+  
+.slide__container {
+  display: inline-flex;
+  white-space: nowrap;
+  position: relative;
+  height: 300px;
+}
+
+img {
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+
+  border-radius: 2em;
+  border: none;
+}
+
+.carousel__control {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel__control button {
+  margin: 1em 1em;
+  padding: 1em 1em;
+  border-radius: 0.5em;
+  border: None;
+  background-color: rgb(66, 159, 226);
+  font-weight: 600;
+}
+
+.carousel__control button:hover {
+  cursor: pointer;
+}
